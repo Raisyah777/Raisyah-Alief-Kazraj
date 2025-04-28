@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALA-Omah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>ALA-Omah</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home">
+    <div class="hero">
+      <h2>Selamat Datang di Toko Roti ALA- Omah!</h2>
+      <p><span>Roti segar</span> setiap hari hanya untukmu.</p>
+      <button>Belanja Sekarang</button>
+    </div>
+  </section>
+
+  <section id="menu">
+    <div class="container">
+      <h2>Menu Kami</h2>
+      <div class="menu-grid">
+        <article class="menu-item">
+          <img src="assets/images/bread1.jpg" alt="Roti Manis">
+          <h3>Roti Manis</h3>
+          <p>Rp 15.000</p>
+          <button>Beli</button>
+        </article>
+        <article class="menu-item">
+          <img src="assets/images/bread2.jpg" alt="Roti Coklat">
+          <h3>Roti Coklat</h3>
+          <p>Rp 18.000</p>
+          <button>Beli</button>
+        </article>
+        <article class="menu-item">
+          <img src="assets/images/bread3.jpg" alt="Croissant">
+          <h3>Croissant</h3>
+          <p>Rp 22.000</p>
+          <button>Beli</button>
+        </article>
+        <!-- Tambahan menu supaya banyak tag -->
+        <article class="menu-item">
+          <img src="assets/images/bread4.jpg" alt="Roti Tawar">
+          <h3>Roti Tawar</h3>
+          <p>Rp 12.000</p>
+          <button>Beli</button>
+        </article>
+        <article class="menu-item">
+          <img src="assets/images/bread5.jpg" alt="Roti Isi Keju">
+          <h3>Roti Isi Keju</h3>
+          <p>Rp 20.000</p>
+          <button>Beli</button>
+        </article>
+        <article class="menu-item">
+          <img src="assets/images/bread6.jpg" alt="Donat">
+          <h3>Donat</h3>
+          <p>Rp 10.000</p>
+          <button>Beli</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="promo">
+    <div class="container">
+      <h2>Promo Hari Ini</h2>
+      <ul>
+        <li><strong>Gratis Ongkir</strong> untuk pembelian di atas Rp50.000</li>
+        <li><strong>Diskon 10%</strong> untuk member baru</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>Tentang Kami</h2>
+      <p>Toko Roti Online berdiri sejak 2020, menyajikan roti terbaik untuk Anda.</p>
+      <p><em>Fresh from the oven setiap hari!</em></p>
+    </div>
+  </section>
+
+  <section id="testimoni">
+    <div class="container">
+      <h2>Testimoni Pelanggan</h2>
+      <div class="testi-item">
+        <p><q>Roti terenak yang pernah saya makan!</q></p>
+        <span>- Toko Kue dan Roti terlengkap se-Makassar</span>
+      </div>
+      <div class="testi-item">
+        <p><q>Pelayanan cepat dan ramah.</q></p>
+        <span>- Kue dan Rotinya manis dan gurihnya pas!</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Kontak Kami</h2>
+      <form action="#">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="subject">Subjek:</label>
+        <input type="text" id="subject" name="subject">
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Toko Roti Online. Semua Hak Dilindungi.</p>
+      <div class="social-media">
+        <a href="#"><img src="assets/images/instagram-icon.png" alt="Instagram"></a>
+        <a href="#"><img src="assets/images/facebook-icon.png" alt="Facebook"></a>
+        <a href="#"><img src="assets/images/twitter-icon.png" alt="Twitter"></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
