@@ -1,0 +1,208 @@
+/* Import font lucu */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f0; /* cream soft */
+  color: #5a3e36; /* coklat muda */
+}
+
+header {
+  background-color: #ffe0e9; /* pink pastel */
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  color: #d6336c;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #d6336c;
+  font-weight: 600;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #fff0f5;
+}
+
+.hero h2 {
+  font-size: 2em;
+  color: #c2185b;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.hero button {
+  background-color: #f8bbd0;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  color: white;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #d6336c;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.menu-item {
+  background-color: #fff0f5;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.menu-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.menu-item h3 {
+  margin-top: 15px;
+  color: #b71c1c;
+}
+
+.menu-item p {
+  margin: 10px 0;
+  color: #5a3e36;
+}
+
+.menu-item button {
+  background-color: #f48fb1;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#promo ul {
+  list-style: square inside;
+  margin-top: 20px;
+}
+
+#promo li {
+  margin-bottom: 10px;
+}
+
+#about p {
+  max-width: 700px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+#testimoni .testi-item {
+  background-color: #ffe0e9;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+#testimoni q {
+  font-style: italic;
+  color: #7b1fa2;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #7b1fa2;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #f48fb1;
+}
+
+textarea {
+  resize: vertical;
+}
+
+form button {
+  background-color: #ff80ab;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #ffe0e9;
+  padding: 20px 0;
+  text-align: center;
+  color: #5a3e36;
+}
+
+.social-media a img {
+  width: 30px;
+  margin: 0 10px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .menu-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Animasi tombol hover */
+button:hover {
+  background-color: #f06292;
+}
+
+/* Animasi link nav hover */
+nav a:hover {
+  color: #ad1457;
+}
